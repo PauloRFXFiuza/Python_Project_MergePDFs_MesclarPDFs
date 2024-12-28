@@ -44,4 +44,4 @@ for archive in archivesList:
         '''append() is a command that adds an element to a variable.
         append() é um comando que adiciona um elemento a uma variável'''
         
-        merger.append()
+        merger.append(f"archives/{archive}")
