@@ -5,4 +5,4 @@ import PyPDF2 as PDF
 import os
 
 merger = PDF.PdfMerger()
-print("Merger =",merger)
+print(f"Merger = {merger}")
