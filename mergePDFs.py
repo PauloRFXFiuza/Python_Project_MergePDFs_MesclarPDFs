@@ -6,3 +6,6 @@ import os
 
 merger = PDF.PdfMerger()
 print(f"Merger = {merger}")
+
+archivesList = os.listdir()
+print(f"Archives List: {archivesList}") 
