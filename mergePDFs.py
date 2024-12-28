@@ -45,3 +45,11 @@ for archive in archivesList:
         append() é um comando que adiciona um elemento a uma variável'''
         
         merger.append(f"archives/{archive}")
+    else: print("Error! Merge Unsuccesfull")    
+
+'''Save PDF Procedure
+Procedimento de Salvar o PDF'''
+
+merger.write("PDF_merged.pdf")
+
+print("Done! Merge PDF Created")
